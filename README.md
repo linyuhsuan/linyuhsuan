@@ -1,6 +1,6 @@
 # Hi 👋, I'm Shelly Lin
 
-> **Senior Frontend Engineer → Web3 Builder** · Taiwan 🇹🇼
+> Senior Frontend / Fullstack Engineer → Web3 Builder · Taiwan 🇹🇼
 
 ![Web3 Builder](https://img.shields.io/badge/Web3-Builder-6747ED?style=flat-square&logo=ethereum&logoColor=white)
 ![ETHGlobal](https://img.shields.io/badge/ETHGlobal-Hacker-000?style=flat-square&logo=ethereum)
@@ -12,29 +12,44 @@
 
 ## 🧑‍💻 About Me
 
-- 🔗 Senior FE Engineer transitioning into Web3 — building DeFi & agentic payment dapps
-- 🏆 ETHGlobal hacker — built an **agentic AI payment** reducing 5+ DeFi steps to 1 wallet confirmation, orchestrating 7 tools across 5 EVM chains with Uniswap swap & human-in-the-loop signing
-- 🛠 Built **Task-scheduler MCP Server** — enabling Claude Desktop to autonomously schedule & manage recurring jobs via natural language
-- 🌱 Exploring: Account Abstraction (ERC-4337), The Graph, zkSync, cross-chain messaging
-- 📫 Reach me: **liny7544@gmail.com** · Telegram: `@shellylinn` · [Medium](#) · [LinkedIn](#)
+- 🔗 Seniro Frontend / Fullstack Engineer with 5+ yrs Fintech exp, now building in Web3
+- 🏆 ETHGlobal hacker — shipped an agentic AI payment dapp across 5 EVM chains
+- 💼 Background in payment & trading platforms, served 1M+ users
+- 📫 liny7544@gmail.com · Telegram: `@shellylinn`
 
 ---
-
 ## ⚡ Featured Projects
 
-### 🤖 Agentic AI Payment — ETHGlobal Hackathon
+### Web3
+
+<details>
+<summary>Agentic AI Payment — ETHGlobal Hackathon</summary>
+
+<br>
+
 Reduced 5+ DeFi interaction steps to a **single wallet confirmation**.  
-Orchestrates 7 tools across 5 EVM chains, integrating Uniswap swap routing and human-in-the-loop signing for secure agentic payments.
+Orchestrates 7 tools across 5 EVM chains with Uniswap swap & human-in-the-loop signing.
+
+🔗 [Live Demo](https://ethglobal.com/showcase/payagent-taoj2) · [ETHGlobal Showcase](https://ethglobal.com/showcase/payagent-taoj2) · [GitHub](https://github.com/linyuhsuan/web3-payment-agent)  
 
 `AI Agents` `DeFi` `5 EVM Chains` `Uniswap` `wagmi / viem`
 
-### ⏰ Task-scheduler MCP Server
+</details>
+
+### AI / MCP
+
+<details>
+<summary>Task-scheduler MCP Server</summary>
+
+<br>
+
 MCP Server enabling Claude Desktop to create, query, cancel & schedule one-time and recurring jobs via natural language.  
-Implemented Registry Pattern (15 lines → 1 dict entry) + Watcher/Worker separation with Time Bucket partitioning, cutting query time **50%** on 10K+ job records.
+
+🔗 [GitHub](https://github.com/linyuhsuan/build-moat/tree/main/chatgpt_task)
 
 `MCP` `Claude Desktop` `Registry Pattern` `TypeScript`
 
----
+</details>
 
 ## 🛠 Tech Stack
 
@@ -61,17 +76,3 @@ Implemented Registry Pattern (15 lines → 1 dict entry) + Watcher/Worker separa
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 
 ---
-
-## ⛓ Chains I Build On
-
-| Chain | Type | Testnet |
-|-------|------|---------|
-| Ethereum | L1 | Sepolia |
-| Base | L2 (OP Stack) | Base Sepolia |
-| Arbitrum | L2 (Optimistic) | Arbitrum Sepolia |
-| Optimism | L2 (OP Stack) | OP Sepolia |
-| Polygon | L2 (zkEVM) | Amoy |
-
----
-
-*building on-chain, one commit at a time 🔗*
